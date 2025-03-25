@@ -15,6 +15,13 @@ The project is organized as follows:
 
 The project uses historical Formula 1 data from the Ergast Developer API, which can be found on Kaggle: [Formula 1 World Championship (1950-2024)](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020). Make sure to download the data and place it in the `data/` directory before running the code.
 
+## Dependencies
+
+Install the required Python packages using `pip` :
+```
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm imbalanced-learn
+```
+
 ## Methodology
 
 1. **Data Loading and Preprocessing:** The code loads the data from the CSV files and merges relevant information into a single DataFrame.
